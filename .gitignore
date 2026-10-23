@@ -19,8 +19,11 @@ build/
 # Database and runtime logs
 data/*.db
 data/*.sqlite*
+server/data/*.db*
+server/data/*.sqlite*
 logs/
 *.log
+.vercel/
 
 # OS & Editor
 .DS_Store
