@@ -88,12 +88,14 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   res.status(status).json({ error: message });
 });
 
-// Start listening
-app.listen(PORT, () => {
-  console.log(`==================================================`);
-  console.log(`🚀 DAYMARK OS Server running on http://localhost:${PORT}`);
-  console.log(`🛡️  Tenant Isolation & ACID SQLite WAL storage active`);
-  console.log(`==================================================`);
-});
+// Start listening in non-Vercel environments
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`==================================================`);
+    console.log(`🚀 DAYMARK OS Server running on http://localhost:${PORT}`);
+    console.log(`🛡️  Tenant Isolation & ACID SQLite WAL storage active`);
+    console.log(`==================================================`);
+  });
+}
 
 export default app;
