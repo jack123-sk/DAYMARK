@@ -2,6 +2,14 @@
 
 > *"Turn business opportunities into completed work."*
 
+[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=flat&logo=vercel)](https://client-ip35yzu8n-jack123-sks-projects.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/jack123-sk/DAYMARK)
+[![Founder Contact](https://img.shields.io/badge/Founder-arunb03102007%40gmail.com-red?style=flat&logo=gmail)](mailto:arunb03102007@gmail.com)
+
+- 🌐 **Live Production App**: [https://client-ip35yzu8n-jack123-sks-projects.vercel.app/](https://client-ip35yzu8n-jack123-sks-projects.vercel.app/)
+- 💻 **GitHub Repository**: [https://github.com/jack123-sk/DAYMARK](https://github.com/jack123-sk/DAYMARK)
+- 📬 **Founder Direct Inquiries**: [arunb03102007@gmail.com](mailto:arunb03102007@gmail.com) | GitHub [@jack123-sk](https://github.com/jack123-sk)
+
 DAYMARK OS is a unified, production-oriented AI business automation platform. It eliminates the fragmentation between market research, proposal generation, client approvals, and customer relationship management by connecting every step of the commercial lifecycle into a deterministic, human-in-the-loop operating system.
 
 ---
