@@ -51,7 +51,7 @@ export function initDatabase() {
       UNIQUE(organization_id, user_id)
     );
 
-    -- Opportunities (Nexora Engine)
+    -- Opportunities (DAYMARK Engine)
     CREATE TABLE IF NOT EXISTS opportunities (
       id TEXT PRIMARY KEY,
       organization_id TEXT NOT NULL REFERENCES organizations(id) ON DELETE CASCADE,
@@ -355,7 +355,7 @@ function seedInitialData() {
     `).run(uuidv4(), orgId, ag.key, ag.name, ag.role, ag.permissions, Math.floor(Math.random() * 20) + 5, Number((Math.random() * 4 + 1).toFixed(2)));
   }
 
-  // Seed Opportunities in Nexora Engine
+  // Seed Opportunities in DAYMARK Engine
   const opps = [
     {
       id: uuidv4(),
@@ -518,7 +518,7 @@ function seedInitialData() {
       title: 'Autonomous Competitor Pricing & Feature Spy',
       category: 'Market Intelligence',
       description: 'Tracks pricing changes, job postings, and feature announcements across top 10 competitors and generates weekly executive briefs.',
-      author: 'Nexora Strategy Group',
+      author: 'DAYMARK Strategy Group',
       installs: 350,
       rating: 4.92,
       price: 'Included in Pro',

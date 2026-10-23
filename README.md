@@ -50,7 +50,7 @@ daymark/
 
 ## 🚀 Key Modules & Capabilities
 
-### A. Nexora Opportunity Engine (`/app/opportunities`)
+### A. DAYMARK Opportunity Engine (`/app/opportunities`)
 - Market hypothesis management with explicit criteria scoring:
   $$\text{Composite Score} = (\text{Willingness to Pay} \times 0.40) + (\text{Feasibility} \times 0.30) + (\text{Market Confidence} \times 0.30)$$
 - Structured Customer Discovery Interview Guide generator (4-question qualitative loop).
@@ -169,7 +169,7 @@ If you wish to rename the project folder from `own company` to `DAYMARK`:
 2. **Channel Strategy:**
    - Public directory discovery (Clutch.co, LinkedIn, Google Maps).
    - Personalized LinkedIn outreach utilizing the DAYMARK outreach template.
-   - 10-minute discovery interviews asking the 4 Nexora validation questions.
+   - 10-minute discovery interviews asking the 4 DAYMARK validation questions.
 3. **Paid Pilot Offer:** $149/mo pilot with 14-day free trial.
 4. **Success Metric:** 15+ hours/week saved on client intake and scope approvals within 30 days.
 

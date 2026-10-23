@@ -43,7 +43,7 @@ export const OpportunityEngineView: React.FC = () => {
         setSelectedOpp(res.opportunities[0]);
       }
     } catch (err) {
-      console.error('[Nexora Load Error]', err);
+      console.error('[DAYMARK Load Error]', err);
     } finally {
       setLoading(false);
     }
@@ -110,7 +110,7 @@ export const OpportunityEngineView: React.FC = () => {
         <div>
           <div className="flex items-center space-x-2 text-xs font-mono text-amber-400 uppercase font-semibold">
             <Lightbulb className="w-4 h-4" />
-            <span>NEXORA OPPORTUNITY ENGINE</span>
+            <span>DAYMARK OPPORTUNITY ENGINE</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">
             Market Hypothesis & Validation Matrix

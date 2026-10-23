@@ -15,7 +15,7 @@ router.get('/status', (_req: Request, res: Response): void => {
       configured: Boolean(process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY || process.env.ANTHROPIC_API_KEY),
       activeProvider: process.env.OPENAI_API_KEY ? 'OpenAI GPT-4o' : process.env.GEMINI_API_KEY ? 'Google Gemini 1.5' : 'DAYMARK Zero-Cost Local Engine',
       mode: Boolean(process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY) ? 'live_cloud' : 'local_deterministic_demo',
-      description: 'Powers Nexora Opportunity analysis, Business Builder synthesis, and the 6 AI Assistants.'
+      description: 'Powers DAYMARK Opportunity analysis, Business Builder synthesis, and the 6 AI Assistants.'
     },
     {
       id: 'stripe_payments',

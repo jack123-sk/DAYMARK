@@ -13,8 +13,8 @@ export const HelpView: React.FC = () => {
       a: 'When an automated workflow encounters a "Request Human Approval" step, the state machine pauses and marks the execution as WAITING_APPROVAL. The proposal draft and dispatch details are displayed in your Approvals inbox. No external emails or CRM status changes take place until you click Authorize.'
     },
     {
-      q: 'How does the Nexora Opportunity Engine calculate composite scores?',
-      a: 'Nexora uses an explicit mathematical formula: (Willingness to Pay × 0.40) + (Technical Feasibility × 0.30) + (Market Confidence × 0.30). Market size calculations are estimated based on addressable B2B firm counts and documented subscription benchmarks.'
+      q: 'How does the DAYMARK Opportunity Engine calculate composite scores?',
+      a: 'DAYMARK uses an explicit mathematical formula: (Willingness to Pay × 0.40) + (Technical Feasibility × 0.30) + (Market Confidence × 0.30). Market size calculations are estimated based on addressable B2B firm counts and documented subscription benchmarks.'
     },
     {
       q: 'Are my private CRM records or business plans used to train public AI models?',

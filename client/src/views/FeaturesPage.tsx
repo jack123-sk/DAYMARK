@@ -8,7 +8,7 @@ interface FeaturesPageProps {
 export const FeaturesPage: React.FC<FeaturesPageProps> = ({ onNavigate }) => {
   const deepFeatures = [
     {
-      title: 'Nexora Opportunity Engine',
+      title: 'DAYMARK Opportunity Engine',
       tagline: 'Discover, score, and validate market demand before writing code.',
       icon: Lightbulb,
       color: 'text-amber-400',

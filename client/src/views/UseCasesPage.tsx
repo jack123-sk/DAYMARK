@@ -24,7 +24,7 @@ export const UseCasesPage: React.FC<UseCasesPageProps> = ({ onNavigate }) => {
       badge: 'High Willingness to Pay',
       color: 'border-slate-800 bg-slate-900/50',
       problem: 'Partners spend countless unbillable hours conducting preliminary secondary market research and compiling executive interview guides.',
-      solution: 'Nexora Opportunity Engine generates structured hypothesis scoring cards, TAM sizing estimates, and structured interview guides in under 3 minutes.',
+      solution: 'DAYMARK Opportunity Engine generates structured hypothesis scoring cards, TAM sizing estimates, and structured interview guides in under 3 minutes.',
       metrics: '4x faster client onboarding • 90%+ client discovery alignment.'
     },
     {

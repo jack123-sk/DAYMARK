@@ -48,7 +48,7 @@ export const api = {
   recoverPassword: (email: string) => request<any>('/auth/recover-password', { method: 'POST', body: JSON.stringify({ email }) }),
   completeOnboarding: (data: any) => request<any>('/auth/onboarding', { method: 'POST', body: JSON.stringify(data) }),
 
-  // Nexora Opportunity Engine
+  // DAYMARK Opportunity Engine
   getOpportunities: () => request<{ opportunities: any[] }>('/opportunities'),
   createOpportunity: (data: any) => request<{ opportunity: any }>('/opportunities', { method: 'POST', body: JSON.stringify(data) }),
   updateOpportunity: (id: string, data: any) => request<{ opportunity: any }>(`/opportunities/${id}`, { method: 'PUT', body: JSON.stringify(data) }),

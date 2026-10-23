@@ -17,7 +17,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onNavigate }) => {
       limits: '1 Project • 50 Runs/mo • 10k AI Tokens • 1 Seat',
       features: [
         '1 Active Business Project',
-        'Basic Nexora Hypothesis Scoring',
+        'Basic DAYMARK Hypothesis Scoring',
         '50 Workflow Runs per month',
         '10,000 AI Tokens monthly',
         'Basic CRM Contacts (100 max)',
@@ -34,7 +34,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onNavigate }) => {
       limits: '5 Projects • 500 Runs/mo • 150k AI Tokens • 3 Seats',
       features: [
         '5 Active Business Projects',
-        'Full Nexora Opportunity Engine',
+        'Full DAYMARK Opportunity Engine',
         '500 Workflow Runs per month',
         '150,000 AI Tokens monthly',
         '1,000 CRM Contacts & Deals',

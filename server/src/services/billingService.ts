@@ -47,7 +47,7 @@ export const PLAN_TIERS: Record<string, PlanDefinition> = {
       maxTeamSeats: 3,
       maxCrmContacts: 1000
     },
-    features: ['5 Business Projects', 'Nexora Opportunity Engine', '500 Workflow Runs/mo', '150k AI Tokens/mo', 'Email & Webhook Triggers']
+    features: ['5 Business Projects', 'DAYMARK Opportunity Engine', '500 Workflow Runs/mo', '150k AI Tokens/mo', 'Email & Webhook Triggers']
   },
   pro: {
     id: 'plan_pro',

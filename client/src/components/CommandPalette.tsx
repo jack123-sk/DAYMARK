@@ -43,7 +43,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose,
 
   const commands = [
     { label: 'Executive Dashboard', route: '/app/dashboard', icon: TrendingUp, cat: 'Core' },
-    { label: 'Nexora Opportunity Engine', route: '/app/opportunities', icon: Lightbulb, cat: 'Core' },
+    { label: 'DAYMARK Opportunity Engine', route: '/app/opportunities', icon: Lightbulb, cat: 'Core' },
     { label: 'AI Business Builder', route: '/app/builder', icon: Sparkles, cat: 'Core' },
     { label: 'Workflow Automations & Approvals', route: '/app/workflows', icon: GitBranch, cat: 'Core' },
     { label: 'DAYMARK CRM (Contacts & Deals)', route: '/app/crm', icon: Users, cat: 'Core' },

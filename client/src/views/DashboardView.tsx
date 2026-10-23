@@ -190,7 +190,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         {/* Metric 3 */}
         <div className="p-5 rounded-3xl bg-[#0c1220] border border-slate-800/80 shadow-lg relative overflow-hidden">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-slate-400 font-mono uppercase">Nexora Opportunities</span>
+            <span className="text-xs font-medium text-slate-400 font-mono uppercase">DAYMARK Opportunities</span>
             <div className="p-2 rounded-xl bg-amber-500/10 text-amber-400">
               <Lightbulb className="w-4 h-4" />
             </div>
@@ -270,7 +270,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
           {/* Quick Module Launchpad */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { label: 'Nexora Engine', desc: 'Score hypotheses', route: '/app/opportunities', icon: Lightbulb, color: 'text-amber-400' },
+              { label: 'Opportunity Engine', desc: 'Score hypotheses', route: '/app/opportunities', icon: Lightbulb, color: 'text-amber-400' },
               { label: 'Business Builder', desc: 'Generate assets', route: '/app/builder', icon: Sparkles, color: 'text-cyan-400' },
               { label: 'CRM Pipeline', desc: 'Manage deals', route: '/app/crm', icon: Users, color: 'text-emerald-400' },
               { label: 'Global Connect', desc: 'Find B2B buyers', route: '/app/connect', icon: Zap, color: 'text-indigo-400' }
@@ -291,12 +291,12 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
           </div>
         </div>
 
-        {/* Right Col: Nexora Opportunity Spotlight */}
+        {/* Right Col: DAYMARK Opportunity Spotlight */}
         <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-900/90 to-[#0c1220] border border-slate-800 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between pb-3 border-b border-slate-800">
               <span className="text-xs font-mono font-semibold text-amber-400 uppercase flex items-center gap-1.5">
-                <Lightbulb className="w-3.5 h-3.5" /> Nexora Top Pick
+                <Lightbulb className="w-3.5 h-3.5" /> DAYMARK Top Pick
               </span>
               <span className="text-xs font-extrabold text-emerald-400 font-mono px-2 py-0.5 rounded bg-emerald-500/10">
                 Score: 90.2

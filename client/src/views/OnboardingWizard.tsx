@@ -48,7 +48,7 @@ export const OnboardingWizard: React.FC<{ onNavigate: (route: string) => void }>
             <div>
               <h1 className="text-xl font-bold text-white">What is your primary customer segment?</h1>
               <p className="text-xs text-slate-400 mt-1">
-                DAYMARK OS calibrates Nexora opportunity models and proposal engines for your industry.
+                DAYMARK OS calibrates opportunity models and proposal engines for your industry.
               </p>
             </div>
 
@@ -103,7 +103,7 @@ export const OnboardingWizard: React.FC<{ onNavigate: (route: string) => void }>
               {[
                 { title: 'Automate lead intake & proposal drafting', desc: 'Enrich new CRM inquiries and auto-generate tailored proposals' },
                 { title: 'Streamline client onboarding approvals', desc: 'Eliminate email back-and-forth with automated approval gates' },
-                { title: 'Discover & score market opportunities', desc: 'Synthesize competitor data and customer interview plans with Nexora' },
+                { title: 'Discover & score market opportunities', desc: 'Synthesize competitor data and customer interview plans with DAYMARK' },
                 { title: 'Monitor client churn & health signals', desc: 'Proactively detect inactive accounts and alert account directors' }
               ].map((goal) => (
                 <button

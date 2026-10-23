@@ -31,7 +31,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentRoute, onNavigate, pend
 
   const primaryNav = [
     { label: 'Dashboard', route: '/app/dashboard', icon: LayoutDashboard },
-    { label: 'Opportunity Engine', route: '/app/opportunities', icon: Lightbulb, badge: 'Nexora' },
+    { label: 'Opportunity Engine', route: '/app/opportunities', icon: Lightbulb, badge: 'Core' },
     { label: 'Business Builder', route: '/app/builder', icon: Sparkles, badge: 'AI' },
     { label: 'Workflow Automation', route: '/app/workflows', icon: GitBranch, alertCount: pendingApprovalsCount },
     { label: 'CRM & Pipeline', route: '/app/crm', icon: Users },

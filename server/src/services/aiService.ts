@@ -80,7 +80,7 @@ export class AIService {
           { tool: 'market_dataset_scan', input: { query: userPrompt }, result: { datasetsFound: 4, averageMargin: '68%', churnBenchmark: '2.4%' } },
           { tool: 'evaluate_tam', input: { segment: 'B2B boutique services' }, result: { estimatedTAM: '$450M ARR', confidence: 0.88 } }
         ];
-        output = `### Market Research & Opportunity Analysis\n\n**Strategic Finding**: ${userPrompt.trim()}\n\n1. **Target Persona Problem Severity**: High. Core friction stems from manual client coordination and unstandardized scope approvals.\n2. **Competitive Landscape**: Existing tools are either generic fragmented point-solutions (HubSpot is high friction, Zapier lacks native business logic).\n3. **Addressable Market**: Estimated serviceable obtainable market (SOM) represents ~$48M ARR across North America and Europe.\n4. **Recommended Next Step**: Deploy 10 structured interviews using the Nexora validation guide.`;
+        output = `### Market Research & Opportunity Analysis\n\n**Strategic Finding**: ${userPrompt.trim()}\n\n1. **Target Persona Problem Severity**: High. Core friction stems from manual client coordination and unstandardized scope approvals.\n2. **Competitive Landscape**: Existing tools are either generic fragmented point-solutions (HubSpot is high friction, Zapier lacks native business logic).\n3. **Addressable Market**: Estimated serviceable obtainable market (SOM) represents ~$48M ARR across North America and Europe.\n4. **Recommended Next Step**: Deploy 10 structured interviews using the DAYMARK validation guide.`;
         break;
 
       case 'sales_assistant':
@@ -245,7 +245,7 @@ export class AIService {
       operationalChecklist: [
         { step: 1, task: 'Set up CRM contacts and import target lead list', timeEst: '15 mins', done: true },
         { step: 2, task: 'Configure email approval workflow and preview templates', timeEst: '30 mins', done: false },
-        { step: 3, task: 'Conduct 5 customer discovery interviews using Nexora guide', timeEst: '3 days', done: false },
+        { step: 3, task: 'Conduct 5 customer discovery interviews using DAYMARK guide', timeEst: '3 days', done: false },
         { step: 4, task: 'Launch pilot landing page and test conversion', timeEst: '1 day', done: false },
         { step: 5, task: 'Review first billing cycle and evaluate churn feedback', timeEst: '30 days', done: false }
       ],

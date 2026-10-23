@@ -244,7 +244,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { title: 'Nexora Opportunity Engine', desc: 'Identify verified B2B customer problems, compute composite scores, and plan customer discovery.', icon: Lightbulb, color: 'text-amber-400' },
+            { title: 'DAYMARK Opportunity Engine', desc: 'Identify verified B2B customer problems, compute composite scores, and plan customer discovery.', icon: Lightbulb, color: 'text-amber-400' },
             { title: 'AI Business Builder', desc: 'Transform natural language project descriptions into full business plans, positioning, and safe templates.', icon: Sparkles, color: 'text-cyan-400' },
             { title: 'Visual Workflow Builder', desc: 'Connect triggers, actions, and mandatory human sign-off gates to eliminate manual bottlenecks.', icon: GitBranch, color: 'text-blue-400' },
             { title: 'DAYMARK CRM', desc: 'Manage contacts, track deal pipelines on a Kanban board, and synchronize client activity automatically.', icon: Users, color: 'text-emerald-400' },
